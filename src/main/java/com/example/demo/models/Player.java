@@ -52,6 +52,11 @@ public class Player {
         this.zip = zip;
     }
 
+    public Player(String firstNameArea, String lastName) {
+        this.firstNameArea = firstNameArea;
+        this.lastName = lastName;
+    }
+
     public void setInstrumentEnum(InstrumentEnum instrumentEnum) {
         this.instrumentEnum = instrumentEnum;
     }

@@ -13,4 +13,6 @@ public interface PlayerRepository extends CrudRepository<Player, Long> {
     Collection<Player> findAll(Sort lastName);
 
     Collection<Player> findByInstrumentEnum(InstrumentEnum instrument, Sort lastName);
+
+    boolean existsByFirstNameAreaAndLastName(String firstNameArea, String lastName);
 }

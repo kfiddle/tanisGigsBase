@@ -7,6 +7,7 @@ public enum InstrumentEnum {
     CELLO("Cello"),
     BASS("Bass"),
     FLUTE("Flute"),
+    VOCALIST("Vocalist"),
     OBOE("Oboe"),
     CLARINET("Clarinet"),
     BASSOON("Bassoon"),
